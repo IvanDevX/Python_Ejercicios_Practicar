@@ -3,7 +3,8 @@
 """
 import os
 
-
+#Funcion con bucle en la que el usuario puede elegir los numeros y el tipo de operacion a realizar, 
+# En el caso de ser erroneos los datos de entrada, manejamos los errores
 def choose_user():
     
     while True:
@@ -45,7 +46,7 @@ def choose_user():
         except ValueError:
             print("Por favor, deben ser numeros")
 
-            
+#Dentro de la funcion main, creamos un bucle para seguir preguntando al usuario si desea realizar otra operacion posterior
 def main():
     print("---> Bienvenido a tu calculadora, ingresa dos números y elige que tipo de operacion que quieres hacer <--- \n")
     choose_user()
