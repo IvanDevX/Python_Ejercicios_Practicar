@@ -6,6 +6,7 @@ import random
 import time
 
 def lista_automatica():
+    # Se genera una lista automaticamente con un len automatico tambien, luego se pasa la lista como parametro a la funcion de pares_impares
     lista_automatica = []
     largo_lista = random.randint(2,20)
     
@@ -20,6 +21,7 @@ def lista_automatica():
     
 
 def lista_user_comas():
+    # El usuario introduce numeros separados por comas, se convierten a int y se retorna la funcion de par impar
     os.system("cls")
     print("Has elegido separados por comas")
     
@@ -37,6 +39,7 @@ def lista_user_comas():
     
 
 def lista_user_enter():
+     # El usuario introduce numeros separados enter
     os.system("cls")
     print("Has elegido enter tras enter")
     lista_enter = []
@@ -65,6 +68,11 @@ def lista_user_enter():
     
     
 def pares_impares(lista):
+    """
+    Primero se recibe la lista del modo elegido
+    Se hacen comprobaciones de la lista antes de seguir.
+    Despues se cuentan los numeros impares y pares y se muestran, asi como tambien cuales son los pares e impares
+    """
     
     if len(lista) == 0:
         print("Tu lista esta vacia.")
@@ -103,6 +111,7 @@ def pares_impares(lista):
     
     
 def lista_user():
+    # Se pregunta al usuario como quiere añadir los numeros
     os.system("cls")
     print("Prefieres añadir los numeros")
     input_user = input("Separados por [C]omas o 1[A]1 Presionando enter?").lower()
@@ -115,6 +124,7 @@ def lista_user():
 
 
 def como_crear_lista():
+    # Se pregunta al usuario si quiere crear el la lista o que se cree automaticamente.
     print("=> Quieres crear tu la lista o que se genere aleatoriamente? <=")
     
     user = None
@@ -151,6 +161,7 @@ def como_crear_lista():
     
 
 def main():
+    # Funcion Main principal
     os.system("cls")
     print("===> Vamos a contar de una lista los numeros pares e impares <===")
     como_crear_lista()
