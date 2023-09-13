@@ -4,16 +4,23 @@
 """
 
 
-
+#Preguntamos al usuario que numero ha de ingresar, manejamos errores en el caso de que el usuario introduzca algo que no sea un numero
 def ask_user():
     try:
-        answer = int(input("Ingresa un numero: "))
+        answer = int(input("Ingresa un numero: \n"))
         return answer
     except ValueError:
-        print("Solo se permiten numeros")
+        print("Solo se permiten numeros \n")
     
 
-#Comprueba si el numero es primo
+"""
+Comprueba si el numero del usuario es primo.
+Un numero primo es un numero que SOLO es divisible por 1 y por el mismo, tiene que ser natural y mayor a 2.
+Todo numero mayor a 2 se comprueba y si el modulo es 0 sale del bucle y determina que no es primo
+Mientras el modulo sea 0 se incrementara el i hasta llegar al anterior al numero de usuario
+De esta forma hacemos que cuando detecte que es un numero no primo salga del bucle y no haga tantos ciclos
+    
+"""
 def esPrimo(number_answer):
     
     if number_answer <= 1:
@@ -36,10 +43,9 @@ def esPrimo(number_answer):
             print(f"{number_answer} no es primo")
         
         
-        
 def main():
     print("Bienvenido a tu programa para determinar numeros primos\n"
-          "Ingresa un numero y te diré si es primo o no")
+          "Ingresa un numero y te diré si es primo o no \n")
     number_answer = ask_user()
     
     if number_answer:
