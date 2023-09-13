@@ -3,7 +3,8 @@
 """
 
 def ask_user():
-    # Pregunta al usuario y maneja excepciones
+    # Pregunta al usuario y maneja excepciones. Se podria meter en un while para que este todo el rato preguntando hasta que 
+    # se introduzca un dato correcto.
     try:
         input_user = int(input("Cual es tu numero? : "))
         if comprobar_premio(input_user):
@@ -19,7 +20,7 @@ def comprobar_premio(input_user):
     Comprueba si el numero del usuario es primo.
     Un numero primo es un numero que SOLO es divisible por 1 y por el mismo, tiene que ser natural y mayor a 2.
     Todo numero mayor a 2 se comprueba y si el modulo es 0 sale del bucle y determina que no es primo
-    Mientras el modulo sea 0 se incrementara el num hasta igualar al numero de usuario
+    Mientras el modulo sea 0 se incrementara el num hasta llegar al anterior al numero de usuario
     De esta forma hacemos que cuando detecte que es un numero no primo salga del bucle y no haga tantos ciclos
     
     """
