@@ -6,6 +6,7 @@ import os
 
 def limpiar_lista(user_input , lista_limpia):
     # Coge la lista de str , la corta por la , y luego cambia el numero a int. Al final la imprime
+    # Pasando como parametro la lista limpia agrega a una nueva lista los numeros para no repetirlos ( Si ya estan en lista no lo añade )
     
     lista = user_input.split(",")
     lista_enteros = [int(num)for num in lista]
