@@ -65,21 +65,24 @@ def ask_user():
     4- Se devuelve el resultado de la funcion
     
     """
-    input_user = int(input("[1] = Binario a Decimal \n"
-                            "[2] = Decimal a Binario \n"
-                            "Que quieres hacer? : "))
-    if input_user == 1:
-        print("Binario a Decimal elegido")
-        input_user = int(input("Introduce tu numero : "))
-        binario_resultado = binario_to_decimal(input_user)
-        print(f"El numero binario {input_user} es : {binario_resultado} en decimal.")
-        
-    elif input_user == 2:
-        print("Decimal a Binario elegido")
-        input_user = int(input("Introduce tu numero : "))
-        decimal_resultado = decimal_to_binario(input_user)
-        print(f"El numero decimal {input_user} es : {decimal_resultado} en binario.")
-
+    try:
+        input_user = int(input("[1] = Binario a Decimal \n"
+                                "[2] = Decimal a Binario \n"
+                                "Que quieres hacer? : "))
+        if input_user == 1:
+            print("Binario a Decimal elegido")
+            input_user = int(input("Introduce tu numero : "))
+            binario_resultado = binario_to_decimal(input_user)
+            print(f"El numero binario {input_user} es : {binario_resultado} en decimal.")
+            
+        elif input_user == 2:
+            print("Decimal a Binario elegido")
+            input_user = int(input("Introduce tu numero : "))
+            decimal_resultado = decimal_to_binario(input_user)
+            print(f"El numero decimal {input_user} es : {decimal_resultado} en binario.")
+    except ValueError:
+        print("Solo numeros")
+        ask_user()
 
 def main():
     # Funcion principal
