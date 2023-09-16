@@ -4,7 +4,7 @@ En esta sección, encontrarás una serie de ejercicios diseñados para ayudarte 
 
 ## Lista de Ejercicios
 
-1. **Suma de dos números** [Mi solucion](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio1.py): Escribe un programa en Python que solicite al usuario que ingrese dos números y luego muestre la suma de esos dos números en pantalla..
+1. **Suma de dos números** : Escribe un programa en Python que solicite al usuario que ingrese dos números y luego muestre la suma de esos dos números en pantalla..
 
 2. **Calculadora Simple**: Escribe un programa que realice una operación matemática simple (suma, resta, multiplicación o división) con dos números ingresados por el usuario.
 
@@ -39,3 +39,22 @@ Muestra una representación de la palabra en la que las letras se reemplacen por
 ## Instrucciones de Uso
 
 - Intentar usar buenas practicas codigo limpio y comentarios.
+
+### Ejercicios resueltos por mi
+
+1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio1.py)
+2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio2.py)
+3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio3.py)
+4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio4.py)
+5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio5.py)
+6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio6.py)
+7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio7.py)
+8. Ejercicio 8 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio8.py)
+9. Ejercicio 9 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio9.py)
+10. Ejercicio 10 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio10.py)
+11. Ejercicio 11 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio11.py)
+12. Ejercicio 12 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio12.py)
+13. Ejercicio 13 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio13.py)
+14. Ejercicio 14 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio14.py)
+15. Ejercicio 15 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio15.py)
+
