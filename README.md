@@ -7,8 +7,11 @@ Bienvenido al repositorio de Ejercicios de Python, un lugar donde puedes mejorar
 Este repositorio contiene una colección de ejercicios organizados en tres niveles de dificultad: básico, intermedio y experto. Cada nivel te desafiará a mejorar tus habilidades de codificación en Python y a abordar problemas que abarcan una variedad de conceptos y temas.
 
 [Ejercicios Basicos](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/basicos.md)
+
 [Ejercicios Intermedios](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Intermedios/intermedios.md)
+
 [Ejercicios Experto](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Expertos/expertos.md)
+
 
 ## Cómo empezar
 
