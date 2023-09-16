@@ -23,7 +23,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 9. **Web Scraping** : Crea un programa que realice web scraping en un sitio web que quieras* y recopile los datos que quieras. Puedes utilizar bibliotecas como BeautifulSoup y Requests para acceder a la página web y extraer la información. Luego, muestra los datos recopiladas en la consola o guárdalas en un archivo de texto o CSV para su posterior análisis.
 
-*Asegúrate de respetar los términos de uso del sitio web al que accedas y ten en cuenta que algunos sitios pueden tener políticas estrictas contra el scraping.
+    *Asegúrate de respetar los términos de uso del sitio web al que accedas y ten en cuenta que algunos sitios pueden tener políticas estrictas contra el scraping.
 
 10. **En proceso** : En proceso...
 
