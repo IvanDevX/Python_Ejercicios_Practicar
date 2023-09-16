@@ -4,7 +4,7 @@ En esta sección, encontrarás una serie de ejercicios diseñados para ayudarte 
 
 ## Lista de Ejercicios
 
-1. **Suma de dos números**: Escribe un programa en Python que solicite al usuario que ingrese dos números y luego muestre la suma de esos dos números en pantalla..
+1. **Suma de dos números** [Mi solucion](https://github.com/IvanDevX/Python_Ejercicios_Practicar/blob/main/Basicos/IvanDevX/ejercicio1.py): Escribe un programa en Python que solicite al usuario que ingrese dos números y luego muestre la suma de esos dos números en pantalla..
 
 2. **Calculadora Simple**: Escribe un programa que realice una operación matemática simple (suma, resta, multiplicación o división) con dos números ingresados por el usuario.
 
@@ -25,7 +25,17 @@ En esta sección, encontrarás una serie de ejercicios diseñados para ayudarte 
 10. **Adivina la palabra**: (Ahorcado )Escribe un programa en Python que seleccione una palabra al azar de una lista de palabras predefinidas y permita al usuario adivinar la palabra. La lista de palabras puede ser una lista que definas en tu programa.
 Muestra una representación de la palabra en la que las letras se reemplacen por guiones bajos _. Por ejemplo, si la palabra es "python", la representación sería "_ _ _ _ _ _".
 
+11. **Conteo de Vocales** : Desarrolla un programa que cuente cuántas vocales (a, e, i, o, u) hay en una cadena de texto ingresada por el usuario, independientemente de si las letras son mayúsculas o minúsculas. Tambien puedes añadir que cuente cuantos espacios, comas y puntos ahi.
+
+12. **Generador de Contraseñas** : Escribe un programa que genere contraseñas seguras. El programa debe permitir al usuario especificar la longitud de la contraseña y si desea incluir letras mayúsculas, letras minúsculas, números y caracteres especiales.
+
+13. **Convertidor de Decimal a Binario** : Escribe un programa que convierta un número decimal ingresado por el usuario a su equivalente en sistema binario.
+
+14. **Conversor de Moneda** : Escribe un programa que convierta una cantidad de dinero en una moneda a otra. El usuario debe ingresar la cantidad, la moneda de origen y la moneda de destino, y el programa debe proporcionar la conversión.
+
+15. **Calculadora de Suma de Series** : Escribe un programa que calcule la suma de una serie de números ingresados por el usuario. El usuario debe poder ingresar números uno por uno y detener la entrada cuando lo desee. El programa debe mostrar la suma total de los números ingresados.
+
+
 ## Instrucciones de Uso
 
 - Intentar usar buenas practicas codigo limpio y comentarios.
-
