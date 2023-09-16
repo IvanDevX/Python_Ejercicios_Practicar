@@ -39,6 +39,7 @@ def generate_pass(longitud, mayusculas, minusculas, numeros, caracteres):
             password_final += password_generate
             
         print(f"Esta es tu contraseña generada: {password_final}")   
+       
         
 def user_questions():
     # Se pregunta al usuario una serie de preguntas, que luego se llevaran como parametro a la funcion generate_pass
