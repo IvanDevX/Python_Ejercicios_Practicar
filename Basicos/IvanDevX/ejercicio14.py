@@ -4,19 +4,22 @@ El usuario debe ingresar la cantidad, la moneda de origen y la moneda de destino
 """
 
 def conversiones(tasas_de_cambio, moneda_origen, moneda_destino, cantidad):
-    try:
-        tasa_origen_usd = tasas_de_cambio[moneda_origen]
-        tasa_destino_usd = tasas_de_cambio[moneda_destino]
-    except KeyError:
-        print("Moneda no válida.")
-        return
-
+    
+    """
+    Convierte la moneda de origen a usd y hace la operacion
+    Al final pregunta si quieres continuar el bucle o salir
+    """
+    
+    tasa_origen_usd = tasas_de_cambio[moneda_origen]
+    tasa_destino_usd = tasas_de_cambio[moneda_destino]
+    
     cantidad_en_usd = cantidad / tasa_origen_usd
     cantidad_convertida = cantidad_en_usd * tasa_destino_usd
 
     print(f"Tus {cantidad} {moneda_origen} son al cambio {cantidad_convertida:.2f} {moneda_destino}")
 
     if input("Salir o continuar? [S]para salir ").lower() == "s":
+        print("Hasta otra!")
         exit()  
     
 
