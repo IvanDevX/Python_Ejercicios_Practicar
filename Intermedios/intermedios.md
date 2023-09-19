@@ -35,4 +35,5 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 ### Ejercicios resueltos por mi
 
-1. Ejercicio 1 => [Mi solución](www.google.es)
+1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1)
+2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2)
