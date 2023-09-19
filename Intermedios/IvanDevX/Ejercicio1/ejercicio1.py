@@ -22,8 +22,6 @@ def encriptar(texto_user):
             
     print(f"Tu frase encriptada es : {frase}")
             
-    return frase
-
 
 def desencriptar(texto_user):
     """
@@ -45,8 +43,6 @@ def desencriptar(texto_user):
             
     print(f"Tu frase desencriptada es : {frase}")
             
-    return frase
-
 
 def comprobar_texto(texto_user):
     # Pequeñas comprobaciones por si el texto esta vacio o con espacios en blanco
@@ -57,24 +53,22 @@ def comprobar_texto(texto_user):
 
 def texto_user():
     # Preguntar al usuario que quiere, y en funcion de su respuesta hacer una funcion o otra.
-    try:
-        input_user = input("¿Quieres [E]ncriptar o [D]esencriptar tu texto? [E / D] : ").lower()
-        if input_user == "e":
-            texto_user = input("Que texto quieres encriptar?")
-            comprobar_texto(texto_user)
-            encriptar(texto_user)
+    
+    input_user = input("¿Quieres [E]ncriptar o [D]esencriptar tu texto? [E / D] : ").lower()
+    if input_user == "e":
+        texto_user = input("Que texto quieres encriptar?")
+        comprobar_texto(texto_user)
+        encriptar(texto_user)
+        
+        
+    elif input_user == "d":
+        texto_user = input("Que texto quieres desencriptar?")
+        comprobar_texto(texto_user)
+        desencriptar(texto_user)
+        
+    else:
+        print("No has elegido ninguna opcion disponible")
             
-            
-        elif input_user == "d":
-            texto_user = input("Que texto quieres desencriptar?")
-            comprobar_texto(texto_user)
-            desencriptar(texto_user)
-            
-        else:
-            print("No has elegido ninguna opcion disponible")
-            
-    except ValueError:
-        print("Introduce solo texto.")
 
 
 def main():
