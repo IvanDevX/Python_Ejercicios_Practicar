@@ -9,7 +9,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 2. **Uso de archivos** : Crea una lista de la compra que se guarde en un fichero txt y que el programa te diga si quieres cargarlo o crear uno nuevo ( si es que lo hay ) y te permita modificar la lista ya creada o eliminar un elemento en su interior..
 
-3. **Reconocimiento de Voz**: Crea un programa que utilice una biblioteca de reconocimiento de voz, como SpeechRecognition, para convertir el habla del usuario en texto. Luego, realiza alguna acción en función de los comandos de voz del usuario, como abrir una página web o realizar una búsqueda en línea.
+3. **Reconocimiento de Voz**: Crea un programa que utilice una biblioteca de reconocimiento de voz, como SpeechRecognition, para convertir el habla del usuario en texto. Luego, realiza alguna acción en función de los comandos de voz del usuario, como abrir una página web o realizar una búsqueda en línea. Sientete libre de usar expresiones regulares.
 
 4. **Juego de Piedra, Papel o Tijera** : Implementa el clásico juego de piedra, papel o tijera en Python. Permite que el usuario juegue contra la computadora y lleva un registro de las victorias y derrotas.
 
