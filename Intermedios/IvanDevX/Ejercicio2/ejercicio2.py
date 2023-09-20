@@ -4,11 +4,16 @@ el programa te diga si quieres cargarlo o crear uno nuevo ( si es que lo hay ) y
 permita modificar la lista ya creada o eliminar un elemento en su interior..
 
 """
-
+# Constante con la ruta de los archivos.
 RUTA_ARCHIVOS = "./archivostxt/"
 
 
 def comprobar_archivo():
+    
+    """
+    1. Verifico el nombre con el que el usuario guardo la lista
+    Esto es un archivo con el nombre lastname que en su interior tiene el nombre de la lista que le dio el usuario ( Porque el usuario puede elegir con que nombre guardarla)
+    """
     try:
         with open (RUTA_ARCHIVOS + "lastname.txt" , "r") as archivo:
             nombre_fichero = archivo.readlines()
@@ -23,6 +28,11 @@ def comprobar_archivo():
                       
 
 def cargar_lista(file_name):
+    """
+    1.Sabiendo el nombre de la lista se pasa como paremetro y se lee el contenido del txt
+    2. Se guarda todo el contenido en str y luego se hace un split por saltos de linea
+    3. Si todo esta bien retorna la lista
+    """
     try:
         with open (RUTA_ARCHIVOS + file_name , "r") as archivo:
             contenido = archivo.read()
@@ -35,6 +45,9 @@ def cargar_lista(file_name):
     
     
 def save_name_list_txt(nombre_archivo):
+    """
+    Aqui se guarda el nombre de la lista en el archivo lastname.txt
+    """
     with open (RUTA_ARCHIVOS + "lastname.txt" , "w") as archivo:
         archivo.write(nombre_archivo + ".txt")
     
@@ -42,6 +55,11 @@ def save_name_list_txt(nombre_archivo):
     
         
 def save_lista_txt(lista_compra):
+    """
+    Se pasa como parametro la lista de compra
+    Se le pregunta al usuario con que nombre quiere guardar la lista
+    Al final se guarda en txt
+    """
     print("Este archivo se va a guardar en un TXT")
     print("Que nombre le quieres dar?")
     nombre_archivo = input()
@@ -55,6 +73,18 @@ def save_lista_txt(lista_compra):
 
 
 def ask_user():
+    
+    """
+    1. Comprobamos si esta el nombre de la lista y si esta comprobamos la lista
+    2. En caso de que la lista no este, se crea una.
+    
+    3. Con un bucle While se pregunta al usuario si quiere editar , añadir o salir de la lista
+    3.1 Se manejan errores y posibles entradas invalidas,asi como si un producto ya esta en la lista, no se duplica.
+    
+    4. Al finalizar se manda como parametro la lista a la funcion save_lista_txt para que guarde la lista en un txt
+    
+    """
+    
     file_name = comprobar_archivo()
     lista_compra = None
     
@@ -74,7 +104,7 @@ def ask_user():
         if input_usuario.lower() == "q":
             break
         
-        elif input_usuario == "" or len(input_usuario) == 0:
+        elif len(input_usuario) == 0:
             print("No se permiten espacios en blanco o vacios")
             
         elif input_usuario.lower() == "e":
@@ -102,6 +132,7 @@ def ask_user():
        
 
 def main():
+    # Funcion Principal
     print("Crearemos una lista y la guardaremos en txt")
     ask_user()
 
