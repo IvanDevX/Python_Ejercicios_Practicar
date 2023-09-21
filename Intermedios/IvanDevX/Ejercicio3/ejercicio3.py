@@ -100,12 +100,12 @@ def main():
     4. Lanzamos la action de abrir una pagina web que el usuario diga.
     
     """
-    # bienvenida = "Hola, Vamos a convertir tu voz a texto."
-    # print(bienvenida) ,speak(bienvenida)
-    # name = name_user()
-    # age, range_edad = age_user()
-    # frase = f"Hola {name} me dices que tienes {age}. {range_edad}"
-    # print(frase) ,speak(frase)
+    bienvenida = "Hola, Vamos a convertir tu voz a texto."
+    print(bienvenida) ,speak(bienvenida)
+    name = name_user()
+    age, range_edad = age_user()
+    frase = f"Hola {name} me dices que tienes {age}. {range_edad}"
+    print(frase) ,speak(frase)
     action_user()
 
 
