@@ -29,7 +29,6 @@ def resultado(user, machine):
 def resumen_final(partidas, victorias_user, derrotas_user, victorias_machine, derrotas_machine, puntuacion_user, puntuacion_machine):
     """
     Recogemos las variables y las usamos para mostrar un mensaje final con todas las estadisticas
-    
     """
     os.system("cls")
     print("Aqui te muestro el resumen")
@@ -69,10 +68,11 @@ def turn_user():
             print("No es correcto, intentalo de nuevo.")
               
 
-def turn_machine(opciones):
+def turn_machine():
     """
-    Turno de la maquina, se pasan las opciones y elige 1.
+    Turno de la maquina, se pasan las opciones y elige 1 random.
     """
+    opciones = ["piedra", "papel", "tijera"]
     machine = random.choice(opciones)
     return machine
     
@@ -90,7 +90,6 @@ def juego():
     print("Habra contador de derrotas y Victorias")
     print("Suerte!")
     
-    opciones = ["piedra", "papel", "tijera"]
     victorias_user = 0 
     derrotas_user = 0
     victorias_machine = 0
@@ -102,7 +101,7 @@ def juego():
     while True:
         
         user_choice = turn_user()
-        machine_choice = turn_machine(opciones)
+        machine_choice = turn_machine()
         
         print(f"Usuario ha elegido : {user_choice.capitalize()} y maquina ha elegido : {machine_choice.capitalize()}")
         
