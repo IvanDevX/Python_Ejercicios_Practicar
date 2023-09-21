@@ -37,3 +37,4 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1)
 2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2)
+3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio3)
