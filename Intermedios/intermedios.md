@@ -25,7 +25,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
     *Asegúrate de respetar los términos de uso del sitio web al que accedas y ten en cuenta que algunos sitios pueden tener políticas estrictas contra el scraping.
 
-10. **En proceso** : En proceso...
+10. **BBDD con Tkinter** : A tu eleccion la BBDD, vas a crear (Recuerdas la lista de la compra de basicos?) una lista de la compra que guarde los articulos y la cantidad en la BBDD y te lo muestre por tkinter y tu eliges si editar / añadir articulos / eliminar articulos. Si te sientes inspirad@ puedes crear una barra de menu, para hacer algo.
 
 
 ## Instrucciones de Uso
