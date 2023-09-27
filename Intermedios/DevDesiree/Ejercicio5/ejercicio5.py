@@ -39,13 +39,19 @@ def igual():
         num2 = pantalla_calculadora.get()
         pantalla_calculadora.delete(0, END)
         if operacion == "+":
-            pantalla_calculadora.insert(0, num1 + float(num2))
-        if operacion == "-":
-            pantalla_calculadora.insert(0, num1 - float(num2))
-        if operacion == "*":
-            pantalla_calculadora.insert(0, num1 * float(num2))
-        if operacion == "/":
-            pantalla_calculadora.insert(0, num1 / float(num2))
+            resultado = num1 + float(num2)
+        elif operacion == "-":
+            resultado = num1 - float(num2)
+        elif operacion == "*":
+            resultado = num1 * float(num2)
+        elif operacion == "/":
+            resultado = num1 / float(num2)
+        
+        # Formatea el resultado como entero si es un numero entero
+        if resultado.is_integer():
+            resultado = int(resultado)
+        
+        pantalla_calculadora.insert(0, str(resultado))
     except NameError:
         pantalla_calculadora.insert(0, "Error")
 
