@@ -8,12 +8,22 @@ from tkinter import *
 
 
 def enviar_boton(valor):
+    """
+    1- Recogemos el valor de la pantalla y la borramos, luego añadimos a la pantalla el resultado anterior y el nuevo numero.
+    """
     anterior = pantalla.get()
     pantalla.delete(0, END)
     pantalla.insert(0, str(anterior) + str(valor))
 
 
 def igual():
+    """
+    1-Recogemos valor de la pantalla y lo llevamos a la variable global num2
+    2-Borramos pantalla 
+    3-Condicionales depende de la operacion hace una operacion y otra
+    4-Esta en un bloque try/except para manejar errores, por ejemplo si le das a la operacion antes de poner numeros.
+    
+    """
     try:
         global num2
         num2 = pantalla.get()
@@ -31,6 +41,9 @@ def igual():
             
         
 def suma():
+    """
+    Coge el numero en pantalla , borra la pantalla , lo transforma a float y a la variable operacion le da su signo
+    """
     global num1
     global operacion
     num1 = pantalla.get()
@@ -40,6 +53,9 @@ def suma():
    
     
 def resta():
+    """
+    Coge el numero en pantalla , borra la pantalla , lo transforma a float y a la variable operacion le da su signo
+    """
     global num1
     global operacion
     num1 = pantalla.get()
@@ -49,6 +65,9 @@ def resta():
 
 
 def division():
+    """
+    Coge el numero en pantalla , borra la pantalla , lo transforma a float y a la variable operacion le da su signo
+    """
     global num1
     global operacion
     num1 = pantalla.get()
@@ -58,6 +77,9 @@ def division():
 
 
 def multiplicacion():
+    """
+    Coge el numero en pantalla , borra la pantalla , lo transforma a float y a la variable operacion le da su signo
+    """
     global num1
     global operacion
     num1 = pantalla.get()
@@ -66,9 +88,15 @@ def multiplicacion():
     operacion = "*"  
     
 def borrartodo():
+    """
+    Borra toda la pantalla
+    """
     pantalla.delete(0, END)
     
 def borrar1():
+    """
+    Guarda lo que hay en pantalla, y verificando la longitud borra el ultimo caracter, borra pantalla y luego añade la variable con el nuevo estado
+    """
     pantalla_estado = pantalla.get()
     if len(pantalla_estado):
         pantalla_nuevo_estado = pantalla_estado[:-1]
@@ -78,6 +106,14 @@ def borrar1():
         borrartodo()
         pantalla.insert(0, "Error")
     
+    
+"""
+Iniciamos Tk
+Le damos titulo y configuraciones
+Asignamos la pantalla y los botones con grid o malla en posicionamiento
+A cada boton le damos la funcion que le corresponda.
+
+"""
 root = Tk()
 root.title("Calculadora Basica")
 # root.iconbitmap("calculadora.ico")
