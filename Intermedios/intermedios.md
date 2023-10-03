@@ -18,7 +18,8 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 6. **Generador de Tarjetas de Visita** : Desarrolla un programa que permita a los usuarios ingresar información personal, como nombre, cargo y detalles de contacto, y luego genere tarjetas de visita en formato PDF que puedan imprimirse.
 
 7. **Aplicación de Clima** : Utiliza una API de pronóstico del tiempo para desarrollar una aplicación que permita a los usuarios ingresar una ubicación y obtener información actualizada sobre el clima.
-                              Puedes usar esta: [Link](https://www.el-tiempo.net/api)
+
+   Puedes usar esta: [Link](https://www.el-tiempo.net/api) o la que quieras.
 
 9. **Juego de Preguntas y Respuestas** : Crea un juego de preguntas y respuestas en el que los jugadores respondan a una serie de preguntas de opción múltiple. Lleva un registro de las puntuaciones y muestra los resultados al final.
 
