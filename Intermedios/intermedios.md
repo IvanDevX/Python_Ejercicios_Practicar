@@ -19,7 +19,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 7. **Aplicación de Clima** : Utiliza una API de pronóstico del tiempo para desarrollar una aplicación que permita a los usuarios ingresar una ubicación y obtener información actualizada sobre el clima.
 
-   Puedes usar la que quieras o esta: <a href="[https://www.ejemplo.com](https://www.el-tiempo.net/api)" target="_blank">Link</a>
+   Puedes usar la que quieras o [esta](https://www.el-tiempo.net/api){:target="_blank"}.
 
 9. **Juego de Preguntas y Respuestas** : Crea un juego de preguntas y respuestas en el que los jugadores respondan a una serie de preguntas de opción múltiple. Lleva un registro de las puntuaciones y muestra los resultados al final.
 
