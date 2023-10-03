@@ -19,7 +19,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 7. **Aplicación de Clima** : Utiliza una API de pronóstico del tiempo para desarrollar una aplicación que permita a los usuarios ingresar una ubicación y obtener información actualizada sobre el clima.
 
-   Puedes usar la que quieras o [esta](https://www.el-tiempo.net/api)
+   Puedes usar la que quieras o esta : [link](https://www.el-tiempo.net/api)
 
 9. **Juego de Preguntas y Respuestas** : Crea un juego de preguntas y respuestas en el que los jugadores respondan a una serie de preguntas de opción múltiple. Lleva un registro de las puntuaciones y muestra los resultados al final.
 
@@ -40,3 +40,7 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1)
 2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2)
 3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio3)
+4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio4)
+5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio5)
+6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio6)
+7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio7)
