@@ -6,14 +6,29 @@
 # pip install reportlab
 # pip install Pillow
 
+"""
+Las librerias..
+
+Tkinter: Para crear la interfaz gráfica de usuario (GUI).
+filedialog: Para permitir al usuario seleccionar una imagen.
+canvas de ReportLab: Para generar archivos PDF y agregar contenido a ellos.
+landscape y A8 de ReportLab: Para definir el tamaño y la orientación de la página del PDF.
+Image y ImageTk de Pillow: Para manipular imágenes y mostrarlas en la GUI.
+"""
 from tkinter import *
 from tkinter import filedialog
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import landscape, A8   # A8 = (52*mm,74*mm) - landscape = apaisado
 from PIL import Image, ImageTk
-import os
+import os #se importa os, para borrar el archivo temporal que se crea con la imagen
 
 def cargar_imagen():
+    """
+    1-Esta función se llama cuando se hace clic en el botón "Cargar Imagen".
+    2-Abre un cuadro de diálogo de selección de archivos para que el usuario elija una imagen.
+    3-Redimensiona la imagen a 80x80 píxeles y la muestra en un widget Label (imagen_label) en la GUI de tkinter.
+    4-Almacena la imagen en una variable global imagen_seleccionada para su uso posterior.
+    """
     global imagen_seleccionada
     imagen_ruta = filedialog.askopenfilename(filetypes=[("Archivos de imagen", "*.png *.jpg *.jpeg")])
     if imagen_ruta:
@@ -27,9 +42,16 @@ def cargar_imagen():
         
         imagen_seleccionada = imagen  # Almacena la imagen en la variable global
 
-    
 
 def generar_tarjeta():
+    """
+    1-Esta función se llama cuando se hace clic en el botón "Generar Tarjeta".
+    2-Obtiene los datos ingresados por el usuario: nombre, cargo, correo electrónico y teléfono.
+    3-Define el tamaño de la página PDF como A8 en orientación apaisada y crea un archivo PDF con el nombre de la persona.
+    4-Dibuja un cuadro y agrega texto en el PDF con la información ingresada por el usuario.
+    5-Comprueba si hay una imagen seleccionada y la agrega al PDF, si no tambien lo crea sin imagen.
+    6-Muestra un mensaje de éxito y borra la imagen temporal después de usarla.
+    """
     # Coger los datos del los inputs
     nombre = nombre_input.get()
     cargo = cargo_input.get()
@@ -37,7 +59,6 @@ def generar_tarjeta():
     telefono = telefono_input.get()
     
     w,h = A8 #w 147.40157480314963 y h 209.76377952755908
-    
     
     # Crear un PDF para la tarjeta de visita con el nombre de la persona
     pdf_filename = f"{nombre}_tarjeta_visita.pdf"
@@ -82,6 +103,15 @@ def generar_tarjeta():
     resultado_label.config(text=f"Tarjeta generada como '{pdf_filename}'")
 
 
+# Diseño de GUI.
+"""
+Se crea la ventana principal (root) y se configura su título, tamaño y restricciones de redimensionamiento.
+Se crean etiquetas y campos de entrada para ingresar el nombre, cargo, correo electrónico y teléfono.
+Se crea un botón "Cargar Imagen" para cargar una imagen.
+Se muestra una etiqueta de "Cargando imagen..." que se actualiza cuando se carga una imagen.
+Se crea un botón "Generar Tarjeta" para generar la tarjeta de visita.
+Se muestra una etiqueta resultado_label para mostrar el mensaje de éxito.
+"""
 root = Tk()
 root.title("Generador de Tarjetas de Visita")
 root.resizable(0,0) #No deja cambiar el tamaño de ventana (0=x, 0=y)
@@ -128,7 +158,5 @@ generar_button.grid(row=6, column=0, columnspan=2, padx=10, pady=10)
 # Etiqueta para mostrar el resultado
 resultado_label = Label(root, text="")
 resultado_label.grid(row=7, column=0, columnspan=2)
-
-
 
 root.mainloop()
