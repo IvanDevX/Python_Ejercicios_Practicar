@@ -21,13 +21,13 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
    Puedes usar la que quieras o esta : [link](https://www.el-tiempo.net/api)
 
-9. **Juego de Preguntas y Respuestas** : Crea un juego de preguntas y respuestas en el que los jugadores respondan a una serie de preguntas de opción múltiple. Lleva un registro de las puntuaciones y muestra los resultados al final.
+8. **Juego de Preguntas y Respuestas** : Crea un juego de preguntas y respuestas en el que los jugadores respondan a una serie de preguntas de opción múltiple. Lleva un registro de las puntuaciones y muestra los resultados al final. Usa interfaz grafica como por ejemplo tkinter
 
-10. **Web Scraping** : Crea un programa que realice web scraping en un sitio web que quieras* y recopile los datos que quieras. Puedes utilizar bibliotecas como BeautifulSoup y Requests para acceder a la página web y extraer la información. Luego, muestra los datos recopiladas en la consola o guárdalas en un archivo de texto o CSV para su posterior análisis.
+9. **Web Scraping** : Crea un programa que realice web scraping en un sitio web que quieras* y recopile los datos que quieras. Puedes utilizar bibliotecas como BeautifulSoup y Requests para acceder a la página web y extraer la información. Luego, muestra los datos recopiladas en la consola o guárdalas en un archivo de texto o CSV para su posterior análisis.
 
     *Asegúrate de respetar los términos de uso del sitio web al que accedas y ten en cuenta que algunos sitios pueden tener políticas estrictas contra el scraping.
 
-11. **BBDD con Tkinter** : A tu eleccion la BBDD, vas a crear (Recuerdas la lista de la compra de basicos?) una lista de la compra que guarde los articulos y la cantidad en la BBDD y te lo muestre por tkinter y tu eliges si editar / añadir articulos / eliminar articulos. Si te sientes inspirad@ puedes crear una barra de menu, para hacer algo.
+10. **BBDD con Tkinter** : A tu eleccion la BBDD, vas a crear (Recuerdas la lista de la compra de basicos?) una lista de la compra que guarde los articulos y la cantidad en la BBDD y te lo muestre por tkinter y tu eliges si editar / añadir articulos / eliminar articulos. Si te sientes inspirad@ puedes crear una barra de menu, para hacer algo.
 
 
 ## Instrucciones de Uso
