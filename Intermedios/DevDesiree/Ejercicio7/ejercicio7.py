@@ -37,7 +37,7 @@ def get_weather(weather):
     
     # Mostramos los valores de la llamada de la API previamente en una variable ya declarada
     location_value_label.config(text=name_city)
-    description_value_label.config(text=description)
+    description_value_label.config(text=description.capitalize())
     actual_temp_value_label.config(text=f"{temp}°C")
     temp_min_value_label.config(text=f"{temp_min}°C")
     temp_max_value_label.config(text=f"{temp_max}°C")
@@ -50,10 +50,9 @@ def get_weather(weather):
     image = Image.open(response.raw)
     photo = ImageTk.PhotoImage(image)
     
-    # Muestra la imagen en un label
+    # Muestra la imagen en un label y mantiene la referencia al objeto PhotoImage, para evitar que la imagen no se muestre
     icon_label.config(image=photo)
-    icon_label.photo = photo  # Debes mantener una referencia al objeto PhotoImage para evitar que la imagen no se muestre
-
+    icon_label.photo = photo  
 
 def weather_json():
     """
