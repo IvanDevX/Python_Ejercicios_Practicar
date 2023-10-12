@@ -37,10 +37,10 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 ### Ejercicios resueltos por mi
 
-1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1.py)
-2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2.py)
-3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio3.py)
-4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio4.py)
-5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio5.py)
-6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio6.py)
-7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio7.py)
+1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio1.py)
+2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio2.py)
+3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio3.py)
+4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio4.py)
+5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio5.py)
+6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio6.py)
+7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/ejercicio7.py)
