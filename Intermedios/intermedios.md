@@ -37,10 +37,10 @@ Los ejercicios cubren una variedad de conceptos y te desafiarán a aplicar los f
 
 ### Ejercicios resueltos por mi
 
-1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1.py/ejercicio1.py)
-2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2.py/ejercicio2.py)
-3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio3.py/ejercicio3.py)
-4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio4.py/ejercicio4.py)
-5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio5.py/ejercicio5.py)
-6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio6.py/ejercicio6.py)
-7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio7.py/ejercicio7.py)
+1. Ejercicio 1 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio1/ejercicio1.py)
+2. Ejercicio 2 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio2/ejercicio2.py)
+3. Ejercicio 3 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio3/ejercicio3.py)
+4. Ejercicio 4 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio4/ejercicio4.py)
+5. Ejercicio 5 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio5/ejercicio5.py)
+6. Ejercicio 6 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio6/ejercicio6.py)
+7. Ejercicio 7 => [Mi solución](https://github.com/IvanDevX/Python_Ejercicios_Practicar/tree/main/Intermedios/IvanDevX/Ejercicio7/ejercicio7.py)
